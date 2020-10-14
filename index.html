@@ -9,7 +9,7 @@
     <!-- 导入第三方图标库 -->
     <link rel="stylesheet" href="./assets/fonts/iconfont.css" />
     <!-- 导入自己的样式表 -->
-    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/css/index.css" />
   </head>
   <body class="layui-layout-body">
     <div class="layui-layout layui-layout-admin">
@@ -26,9 +26,11 @@
               个人中心
             </a>
             <dl class="layui-nav-child">
-              <dd><a href="">基本资料</a></dd>
-              <dd><a href="">更换头像</a></dd>
-              <dd><a href="">重置密码</a></dd>
+              <dd><a href="./user/user_info.html" target="fm">基本资料</a></dd>
+              <dd>
+                <a href="./user/user_avatar.html" target="fm">更换头像</a>
+              </dd>
+              <dd><a href="./user/user_pwd.html" target="fm">重置密码</a></dd>
             </dl>
           </li>
           <li class="layui-nav-item">
@@ -59,7 +61,7 @@
               >
               <dl class="layui-nav-child">
                 <dd>
-                  <a href="javascript:;"
+                  <a href="./article/art_cate.html" target="fm"
                     ><i class="layui-icon layui-icon-app"></i>文章类别</a
                   >
                 </dd>
@@ -81,17 +83,17 @@
               >
               <dl class="layui-nav-child">
                 <dd>
-                  <a href="javascript:;"
+                  <a href="./user/user_info.html" target="fm"
                     ><i class="layui-icon layui-icon-app"></i>基本资料</a
                   >
                 </dd>
                 <dd>
-                  <a href="javascript:;"
+                  <a href="./user/user_avatar.html" target="fm"
                     ><i class="layui-icon layui-icon-app"></i>更换头像</a
                   >
                 </dd>
                 <dd>
-                  <a href="javascript:;"
+                  <a href="./user/user_pwd.html" target="fm"
                     ><i class="layui-icon layui-icon-app"></i>重置密码</a
                   >
                 </dd>
@@ -108,16 +110,16 @@
 
       <div class="layui-footer">
         <!-- 底部固定区域 -->
-        © www.itheima.com - 黑马董事会
+        © www.itheima.com - 黑马程序员
       </div>
     </div>
     <!-- 导入 layui 的JS文件 -->
     <script src="./assets/lib/layui/layui.all.js"></script>
-    <!-- 导入jQuery -->
+    <!-- 导入 jQuery -->
     <script src="./assets/lib/jquery.js"></script>
-    <!-- 导入自己封装的JS -->
+    <!-- 导入自己封装的 baseAPI -->
     <script src="./assets/js/baseAPI.js"></script>
-
+    <!-- 导入自己的 js 文件 -->
     <script src="./assets/js/index.js"></script>
   </body>
 </html>
