@@ -18,7 +18,7 @@ $.ajaxPrefilter(function (options) {
     ) {
       // 强制清空
       localStorage.removeItem("token");
-      location.href = "/前端/前端就业班/大事件/新建文件夹/login.html";
+      location.href = "./login.html";
     }
   };
 });

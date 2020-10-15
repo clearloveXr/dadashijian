@@ -128,7 +128,7 @@ $(function () {
         // 设置到本地
         localStorage.setItem("token", res.token);
         // 根目录
-        location.href = "/前端/前端就业班/大事件/新建文件夹/index.html";
+        location.href = "./index.html";
       },
     });
   });

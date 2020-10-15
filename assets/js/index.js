@@ -12,7 +12,7 @@ $(function () {
       localStorage.removeItem("token");
 
       // 跳转页面
-      location.href = "/前端/前端就业班/大事件/新建文件夹/login.html";
+      location.href = "./login.html";
       // 关闭弹出框
       layer.close(index);
     });
@@ -31,7 +31,7 @@ function getUserInfo() {
         return;
       }
       renderAvatar(res.data);
-    }
+    },
   });
 }
 function renderAvatar(user) {
